@@ -8,7 +8,7 @@ namespace LawyerHelper
 {
     class mainDataGridItem
     {
-        public float number{get;set;}
+        public double number{get;set;}
 
         public string aim { get; set; }
 
@@ -22,7 +22,7 @@ namespace LawyerHelper
 
         public string comment { get; set; }
 
-        public mainDataGridItem(float number, string aim, string planDate, int timeFromBegin, string factDate, int pastDue, string comment)
+        public mainDataGridItem(double number, string aim, string planDate, int timeFromBegin, string factDate, int pastDue, string comment)
         {
             this.number = number;
             this.aim = aim;

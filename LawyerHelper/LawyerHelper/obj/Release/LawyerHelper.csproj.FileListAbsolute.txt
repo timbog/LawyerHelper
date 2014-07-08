@@ -1,0 +1,3 @@
+C:\Users\Bogdan\Documents\GitHub\LawyerHelper\LawyerHelper\LawyerHelper\bin\Release\LawyerHelper.exe.config
+C:\Users\Bogdan\Documents\GitHub\LawyerHelper\LawyerHelper\LawyerHelper\obj\Release\Interop.Microsoft.Office.Core.dll
+C:\Users\Bogdan\Documents\GitHub\LawyerHelper\LawyerHelper\LawyerHelper\obj\Release\LawyerHelper.csproj.ResolveComReference.cache

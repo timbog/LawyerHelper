@@ -11,3 +11,5 @@ C:\Users\Bogdan\Documents\GitHub\LawyerHelper\LawyerHelper\LawyerHelper\obj\Debu
 C:\Users\Bogdan\Documents\GitHub\LawyerHelper\LawyerHelper\LawyerHelper\obj\Debug\LawyerHelper.csproj.GenerateResource.Cache
 C:\Users\Bogdan\Documents\GitHub\LawyerHelper\LawyerHelper\LawyerHelper\obj\Debug\LawyerHelper.exe
 C:\Users\Bogdan\Documents\GitHub\LawyerHelper\LawyerHelper\LawyerHelper\obj\Debug\LawyerHelper.pdb
+C:\Users\Bogdan\Documents\GitHub\LawyerHelper\LawyerHelper\LawyerHelper\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\Bogdan\Documents\GitHub\LawyerHelper\LawyerHelper\LawyerHelper\obj\Debug\LawyerHelper.csproj.ResolveComReference.cache

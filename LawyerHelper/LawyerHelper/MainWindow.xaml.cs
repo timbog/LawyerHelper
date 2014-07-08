@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,17 +13,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Office.Interop.Excel;
+using System.Runtime.InteropServices;
 
 namespace LawyerHelper
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : System.Windows.Window
     {
         private string[] aimArray()
         {
-            string[] array = new string[120];
+            string[] array = new string[114];
             array[0] = "Получение исполнительного листа";
             array[1] = "Возбуждение исполнительного производства";
             array[2] = "Установление должнику срока для добровольного исполнения требований, содержащихся в исполнительном документе";
@@ -119,35 +122,138 @@ namespace LawyerHelper
             array[93] = "Получение ответов на запросы в туристические фирмы на супругу должника";
             array[94] = "Совершение запросов операторам сотовой связи на супругу должника";
             array[95] = "Получение ответов на запросы операторам сотовой связи на супругу должника";
-            array[97] = "Совершение запросов в единые рассчетно-кассовые центры на супругу должника";
-            array[98] = "Получение ответов на запросы в единые рассчетно-кассовые центры на супругу должника";
-            array[99] = "Совершение запроса о маршрутах передвижения супруги должника посредством постановки информации в систему «Розыск-Магистраль»";
-            array[100] = "Получение ответов на запрос о маршрутах передвижения супруги должника из системы «Розыск-Магистраль»";
-            array[101] = "Постановка супруги должника в систему «Поток-Д»";
-            array[102] = "Контроль процесса постановки супруги должника в систему «Поток-Д»";
-            array[103] = "Вынесение постановления о розыске имущества супруги должника";
-            array[104] = "Контроль процесса розыска имущества супруги должника";
-            array[105] = "Наложение ареста на имущество супруги должника";
-            array[106] = "Конфискация имущества супруги должника";
-            array[107] = "Совершение запрета на выезд должника за пределы Российской Федерации";
-            array[108] = "Совершение требования об исполнении судебного акта";
-            array[109] = "Повторное совершение требования об исполнении судебного акта";
-            array[110] = "Предупреждение должника о привлечении к административной ответственности";
-            array[111] = "Привлечение должника к административной ответственности";
-            array[112] = "Предупреждение должника о привлечении к уголовной ответственности";
-            array[113] = "Повторное предупреждение должника о привлечении к уголовной ответственности";
-            array[114] = "Возбуждение уголовного дела в отношении должника";
+            array[96] = "Совершение запросов в единые рассчетно-кассовые центры на супругу должника";
+            array[97] = "Получение ответов на запросы в единые рассчетно-кассовые центры на супругу должника";
+            array[98] = "Совершение запроса о маршрутах передвижения супруги должника посредством постановки информации в систему «Розыск-Магистраль»";
+            array[99] = "Получение ответов на запрос о маршрутах передвижения супруги должника из системы «Розыск-Магистраль»";
+            array[100] = "Постановка супруги должника в систему «Поток-Д»";
+            array[101] = "Контроль процесса постановки супруги должника в систему «Поток-Д»";
+            array[102] = "Вынесение постановления о розыске имущества супруги должника";
+            array[103] = "Контроль процесса розыска имущества супруги должника";
+            array[104] = "Наложение ареста на имущество супруги должника";
+            array[105] = "Конфискация имущества супруги должника";
+            array[106] = "Совершение запрета на выезд должника за пределы Российской Федерации";
+            array[107] = "Совершение требования об исполнении судебного акта";
+            array[108] = "Повторное совершение требования об исполнении судебного акта";
+            array[109] = "Предупреждение должника о привлечении к административной ответственности";
+            array[110] = "Привлечение должника к административной ответственности";
+            array[111] = "Предупреждение должника о привлечении к уголовной ответственности";
+            array[112] = "Повторное предупреждение должника о привлечении к уголовной ответственности";
+            array[113] = "Возбуждение уголовного дела в отношении должника";
+            return array;
+        }
+        private double[] indexArray()
+        {
+            double[] array = new double[114];
+            for (int i = 0; i < 9; ++i)
+            {
+                array[i] = i + 1;
+            }
+            array[9] = 9.1;
+            array[10] = 9.2;
+            array[11] = 9.3;
+            array[12] = 9.4;
+            array[13] = 9.5;
+            array[14] = 10;
+            array[15] = 10.1;
+            array[16] = 10.2;
+            array[17] = 10.3;
+            array[18] = 10.4;
+            array[19] = 10.5;
+            array[20] = 11;
+            array[21] = 11.1;
+            array[22] = 11.2;
+            array[23] = 11.3;
+            array[24] = 11.4;
+            array[25] = 11.5;
+            for (int i = 26; i < 61; ++i)
+            {
+                array[i] = i - 14;
+            }
+            array[61] = 46.1;
+            array[62] = 46.2;
+            array[63] = 46.3;
+            array[64] = 46.4;
+            array[65] = 46.5;
+            array[66] = 47;
+            array[67] = 47.1;
+            array[68] = 47.2;
+            array[69] = 47.3;
+            array[70] = 47.4;
+            array[71] = 47.5;
+            array[72] = 48;
+            array[73] = 48.1;
+            array[74] = 48.2;
+            array[75] = 48.3;
+            array[76] = 48.4;
+            array[77] = 48.5;
+            for (int i = 78; i < 114; ++i)
+            {
+                array[i] = i - 29;
+            }
             return array;
         }
         public MainWindow()
         {
             InitializeComponent();
             List<mainDataGridItem> list = new List<mainDataGridItem>();
-            for (int i = 0; i < 115; i++)
+            for (int i = 0; i < 114; i++)
             {
-                list.Add(new mainDataGridItem(i, aimArray()[i], "", 0, "", 0, ""));
-                mainDataGrid.Items.Add(list[i]);
+                list.Add(new mainDataGridItem(indexArray()[i], aimArray()[i], "", 0, "", 0, ""));
+                //mainDataGrid.Items.Add(list[i]);
             }
+            mainDataGrid.ItemsSource = list;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Office.Interop.Excel.Application ExcelApp = new Microsoft.Office.Interop.Excel.Application();
+            ExcelApp.Application.Workbooks.Add(Type.Missing);
+            ExcelApp.Columns[1].ColumnWidth = 4;
+            ExcelApp.Columns[2].ColumnWidth = 122;
+            ExcelApp.Columns[3].ColumnWidth = 12;
+            ExcelApp.Columns[4].ColumnWidth = 13;
+            ExcelApp.Columns[5].ColumnWidth = 12;
+            ExcelApp.Columns[6].ColumnWidth = 12;
+            ExcelApp.Columns[7].ColumnWidth = 40;
+            ExcelApp.Cells[1, 2] = "Ведомость исполнительного производства";
+            ExcelApp.Cells[3, 2] = "Исполнительное производство №";
+            ExcelApp.Cells[4, 2] = "Дата начала исполнительного производства::";
+            ExcelApp.Cells[5, 2] = "Служба судебных приставов:";
+            ExcelApp.Cells[6, 2] = "Судебный пристав-исполнитель:";
+            ExcelApp.Cells[7, 2] = "Дознаватель:";
+            ExcelApp.Cells[9, 1] = "№";
+            ExcelApp.Cells[9, 2] = "Наименование действия";
+            ExcelApp.Cells[9, 3] = "Дата(План)";
+            ExcelApp.Cells[9, 4] = "Срок с начала";
+            ExcelApp.Cells[9, 5] = "Дата(факт)";
+            ExcelApp.Cells[9, 6] = "Просрочка";
+            ExcelApp.Cells[9, 7] = "Примечания";
+            for (int i = 10; i < 124; ++i)
+            {
+                ExcelApp.Cells[i, 1] = indexArray()[i - 10];
+                ExcelApp.Cells[i, 2] = aimArray()[i - 10];
+            }
+            ExcelApp.Visible = true;
+
+            /*
+            //Получаем массив ссылок на листы выбранной книги
+            var excelsheets = ExcelApp.Workbooks[1].Worksheets;
+            //Получаем ссылку на лист 1
+            var excelworksheet = (Worksheet)excelsheets.get_Item(1);
+            //Выбираем ячейку для вывода 
+            var excelcells = excelworksheet.get_Range("A1", "G114");
+            //Объединяем ячейки
+            excelcells.Merge(Type.Missing);
+            //Устанавливаем цвет обводки
+            excelcells.Borders.ColorIndex = 3;
+            //Устанавливаем стиль и толщину линии
+            excelcells.Borders.LineStyle = XlLineStyle.xlContinuous;
+            excelcells.Borders.Weight = XlBorderWeight.xlThick;
+             * */
+            //Будем спрашивать разрешение на запись поверх существующего документа
+            ExcelApp.DisplayAlerts = true;
+            ExcelApp.Application.Workbooks[1].SaveAs(@"C:\a.xls");
 
         }
     }
