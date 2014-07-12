@@ -1,0 +1,35 @@
+c:\users\terryb\documents\visual studio 2013\Projects\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\SendEmailGoogleApps2.exe
+c:\users\terryb\documents\visual studio 2013\Projects\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\SendEmailGoogleApps2.pdb
+c:\users\terryb\documents\visual studio 2013\Projects\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\Google.GData.Client.dll
+c:\users\terryb\documents\visual studio 2013\Projects\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\Google.GData.Extensions.dll
+c:\users\terryb\documents\visual studio 2013\Projects\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\Google.GData.Spreadsheets.dll
+c:\users\terryb\documents\visual studio 2013\Projects\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\Newtonsoft.Json.dll
+c:\users\terryb\documents\visual studio 2013\Projects\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.csprojResolveAssemblyReference.cache
+c:\users\terryb\documents\visual studio 2013\Projects\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.Form1.resources
+c:\users\terryb\documents\visual studio 2013\Projects\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.Properties.Resources.resources
+c:\users\terryb\documents\visual studio 2013\Projects\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.csproj.GenerateResource.Cache
+c:\users\terryb\documents\visual studio 2013\Projects\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.exe
+c:\users\terryb\documents\visual studio 2013\Projects\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.pdb
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.exe
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.pdb
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\SendEmailGoogleApps2.exe
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\SendEmailGoogleApps2.pdb
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\Google.GData.Client.dll
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\Google.GData.Extensions.dll
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\Google.GData.Spreadsheets.dll
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.csprojResolveAssemblyReference.cache
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.Form1.resources
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.Properties.Resources.resources
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.csproj.GenerateResource.Cache
+C:\Users\Masha\Desktop\много документов\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\InputBox.InputBox.resources
+C:\Users\Bogdan\Documents\Visual Studio 2013\Projects\мои попытки\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.exe
+C:\Users\Bogdan\Documents\Visual Studio 2013\Projects\мои попытки\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.pdb
+C:\Users\Bogdan\Documents\Visual Studio 2013\Projects\мои попытки\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.csprojResolveAssemblyReference.cache
+C:\Users\Bogdan\Documents\Visual Studio 2013\Projects\мои попытки\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.Form1.resources
+C:\Users\Bogdan\Documents\Visual Studio 2013\Projects\мои попытки\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\InputBox.InputBox.resources
+C:\Users\Bogdan\Documents\Visual Studio 2013\Projects\мои попытки\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.Properties.Resources.resources
+C:\Users\Bogdan\Documents\Visual Studio 2013\Projects\мои попытки\SendEmailGoogleApps2\SendEmailGoogleApps2\obj\Debug\SendEmailGoogleApps2.csproj.GenerateResource.Cache
+C:\Users\Bogdan\Documents\Visual Studio 2013\Projects\мои попытки\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\SendEmailGoogleApps2.exe
+C:\Users\Bogdan\Documents\Visual Studio 2013\Projects\мои попытки\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\SendEmailGoogleApps2.pdb
+C:\Users\Bogdan\Documents\Visual Studio 2013\Projects\мои попытки\SendEmailGoogleApps2\SendEmailGoogleApps2\bin\Debug\Newtonsoft.Json.dll
